@@ -1,8 +1,11 @@
-Sample application MVVMVGSeries has Three screens a) Login b) Home c) Detail.
+Sample application MVVMVGSeries has Three screens 
+  a) Login b) Home c) Detail.
+
   a) Login : LoginViewController
          : LoginCoordinator
          : Login(Storyboard)
          : LoginViewModel
+         
 b) Home  : HomeViewController
          : HomeCoordinator
          : Home(Storyboard)
@@ -11,6 +14,7 @@ b) Home  : HomeViewController
          : WeatherTableViewCell
          : WeatherForecastBusinessModel
          : WeatherForecast
+         
 c) Detail : DetailViewController
          : LoginCoordinator
          : Detail(Storyboard)
