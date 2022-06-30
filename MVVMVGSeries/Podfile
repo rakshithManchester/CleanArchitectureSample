@@ -1,29 +1,11 @@
 # Uncomment the next line to define a global platform for your project
 # platform :ios, '9.0'
 
-Sample application MVVMVGSeries has Three screens a) Login b) Home c) Detail.
-  a) Login : LoginViewController
-         : LoginCoordinator
-         : Login(Storyboard)
-         : LoginViewModel
-b) Home  : HomeViewController
-         : HomeCoordinator
-         : Home(Storyboard)
-         : HomeViewModel
-         : TableViewDelegate
-         : WeatherTableViewCell
-         : WeatherForecastBusinessModel
-         : WeatherForecast
-c) Detail : DetailViewController
-         : LoginCoordinator
-         : Detail(Storyboard)
-         : DetailCoordinator
+target 'MVVMVGSeries' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
 
-Common files are - Coordinator
-                   MainCoordinator
-                   Utils
-                   StoryBoarded
-                   SceneDelegate
-                   AppDelegate
+pod 'RxSwift'
+pod 'RxCocoa'
 
-Framework used are :  'RxSwift', 'RxCocoa'
+end
